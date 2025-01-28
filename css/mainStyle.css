@@ -1,0 +1,28 @@
+@font-face {
+  font-family: cr_005;
+  src: url(../fonts/Cromwell_Revival_005-Regular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: cr_005;
+  text-align: right;
+  letter-spacing: 4px;
+  font-size: .5em;
+  position: relative;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+

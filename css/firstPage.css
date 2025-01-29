@@ -23,8 +23,10 @@ body {
   font-size: 9em;
   padding-bottom: 4%;
   text-align: center;
-
+  /* padding-right: -50px; */
 }
+
+
 
  span{
   animation: mover 7s linear infinite;
@@ -42,7 +44,7 @@ footer {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 
@@ -75,71 +77,27 @@ span:nth-child(1)
 }
 span:nth-child(2)
 {
-  animation-delay: .50s;
+  animation-delay: ..75s;
 }
 span:nth-child(3)
 {
-  animation-delay: .75s;
+  animation-delay: 1.25s;
 }
 span:nth-child(4)
 {
-  animation-delay: 1s;
+  animation-delay: 1.75s;
 }
 span:nth-child(5)
 {
-  animation-delay: 1.25s;
+  animation-delay: 2.25s;
 }
 span:nth-child(6)
 {
-  animation-delay: 1.5s;
+  animation-delay: 2.75s;
 }
 span:nth-child(7)
 {
-  animation-delay: 1.75s;
-}
-span:nth-child(8)
-{
-  animation-delay: 2s;
-}
-span:nth-child(9)
-{
-  animation-delay: 2.25s;
-}
-span:nth-child(10)
-{
-  animation-delay: 2.5s;
-}
-span:nth-child(11)
-{
-  animation-delay: 2.75s;
-}
-span:nth-child(12)
-{
-  animation-delay: 3s;
-}
-span:nth-child(13)
-{
   animation-delay: 3.25s;
-}
-span:nth-child(14)
-{
-  animation-delay: 3.5s;
-}
-span:nth-child(15)
-{
-  animation-delay: 3.75s;
-}
-span:nth-child(16)
-{
-  animation-delay: 4s;
-}
-span:nth-child(17)
-{
-  animation-delay: 4.25s;
-}
-span:nth-child(18)
-{
-  animation-delay: 4.5s;
 }
 
 @keyframes enter {
